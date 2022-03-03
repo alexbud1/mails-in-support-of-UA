@@ -5,14 +5,18 @@ Using this repository you can send mails to multiple recipients.Was created in s
 
 Follow instruction and do next steps.
 
-1.You should start the Python built-in mail server on port 1025 using the following command for Windows:
+1.Go to Google's Account Security Settings: www.google.com/settings/security
+
+Find the field "Access for less secure apps". Set it to "Allowed".
+
+2.You should start the Python built-in mail server on port 1025 using the following command for Windows:
   python -m smtpd -c DebuggingServer -n localhost:1025
   
-2.Open another cmd window and paste command:
+3.Open another cmd window and paste command:
   python send_letters.py
   
-3.You will be asked to print your email password.
+4.You will be asked to print your email password.
 Do it.
 I dont save it anywhere or use(you can check it in code)
 
-4.The process of sending started
+5.The process of sending started
