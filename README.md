@@ -6,6 +6,7 @@ Using this repository you can send mails to multiple recipients.Was created in s
 Follow instruction and do next steps.
 
 1.Download this repository on your device with following command:
+
       git clone https://github.com/alexbud1/mails-in-support-of-UA/
 
 2.Go to Google's Account Security Settings: www.google.com/settings/security
