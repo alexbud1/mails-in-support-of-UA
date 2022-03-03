@@ -11,11 +11,11 @@ Find the field "Access for less secure apps". Set it to "Allowed".
 
 2.You should start the Python built-in mail server on port 1025 using the following command for Windows:
 
-  python -m smtpd -c DebuggingServer -n localhost:1025
+      python -m smtpd -c DebuggingServer -n localhost:1025
   
 3.Open another cmd window and paste command:
 
-  python send_letters.py
+      python send_letters.py
   
 4.You will be asked to print your email password.
 Do it.
