@@ -38,7 +38,9 @@ server.login(sender_email, gmail_password)
 
 ##### creating message object
 message = MIMEMultipart()
-
+message["From"] = sender_email
+message["Subject"] = subject
+message.attach(MIMEText(body, "plain"))
 
 ##### attaching files to message
 for i in range(6):  
@@ -52,9 +54,6 @@ for i in range(6):
 
 ##### sending letters to all emails in emails.txt
 for f in tqdm(receivers):
-    message["From"] = sender_email
-    message["Subject"] = subject
-    message.attach(MIMEText(body, "plain"))
     message["To"] = f   
     message["Bcc"] = f  
     text = message.as_string()  
