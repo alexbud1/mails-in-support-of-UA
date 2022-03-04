@@ -8,8 +8,8 @@ from tqdm import tqdm
 
 
 ##### account data for starting email sending
-sender_email = "alexbud.optional@gmail.com"
-gmail_password = '0207200540620'
+sender_email = "example@gmail.com"
+gmail_password = 'your_password'
 
 
 ##### extracting emails from file and putting them into list
