@@ -8,9 +8,14 @@ from tqdm import tqdm
 
 
 ##### account data for starting email sending
-sender_email = "example@gmail.com"
-gmail_password = 'your_password'
-
+k = 0
+with open ('user_data.txt', 'rt') as myfile:  
+    for myline in myfile:     
+        if k == 0:
+            sender_email = myline
+        if k == 1:
+            gmail_password = myline
+        k +=1
 
 ##### extracting emails from file and putting them into list
 receivers = []
