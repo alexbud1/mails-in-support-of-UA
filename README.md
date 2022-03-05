@@ -9,11 +9,11 @@ Follow instruction and do next steps.
 
       git clone https://github.com/alexbud1/mails-in-support-of-UA/
 
-2.Open file in this directory called send_letters.py and find 11th and 12th rows of code:
+2.Open file in this directory called user_data.txt and find 1st and 2nd rows of code:
       
-      sender_email = "example@gmail.com"
+      example@gmail.com
       
-      gmail_password = 'your_password'
+      your_password
       
 Paste here your email instead of example@gmail.com and password instead of your_password
 
